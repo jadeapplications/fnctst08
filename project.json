@@ -1,0 +1,10 @@
+{
+    "name": "fnctst08",
+    "version": "8.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "fnctst08.xml",
+    "author": "myke predko",
+    "minimum_firmware_version": 41
+}
