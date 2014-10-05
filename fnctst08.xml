@@ -1,37 +1,37 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="422" inline="true" x="-22" y="-56">
+  <block type="variables_set" id="1" inline="true" x="-22" y="-56">
     <field name="VAR">i</field>
     <value name="VALUE">
-      <block type="procedures_callreturn" id="423" inline="false">
+      <block type="procedures_callreturn" id="2" inline="false">
         <mutation name="square">
           <arg name="x"></arg>
         </mutation>
         <value name="ARG0">
-          <block type="math_number" id="469">
+          <block type="math_number" id="3">
             <field name="NUM">2</field>
           </block>
         </value>
       </block>
     </value>
   </block>
-  <block type="procedures_defreturn" id="424" inline="false" x="-12" y="42">
+  <block type="procedures_defreturn" id="4" inline="false" x="-12" y="42">
     <mutation>
       <arg name="x"></arg>
     </mutation>
     <field name="NAME">square</field>
     <statement name="STACK">
-      <block type="variables_set" id="436" inline="true">
+      <block type="variables_set" id="5" inline="true">
         <field name="VAR">local_i</field>
         <value name="VALUE">
-          <block type="math_arithmetic" id="443" inline="true">
+          <block type="math_arithmetic" id="6" inline="true">
             <field name="OP">MULTIPLY</field>
             <value name="A">
-              <block type="variables_get" id="452">
+              <block type="variables_get" id="7">
                 <field name="VAR">x</field>
               </block>
             </value>
             <value name="B">
-              <block type="variables_get" id="453">
+              <block type="variables_get" id="8">
                 <field name="VAR">x</field>
               </block>
             </value>
@@ -40,7 +40,7 @@
       </block>
     </statement>
     <value name="RETURN">
-      <block type="variables_get" id="462">
+      <block type="variables_get" id="9">
         <field name="VAR">local_i</field>
       </block>
     </value>
