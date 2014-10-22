@@ -1,8 +1,6 @@
 fnctst08
 ========
 
-Scratch:
-
 Demonstrate how a function with internal statements works in Scratch.
 
 ### Project Information
