@@ -1,6 +1,8 @@
 fnctst08
 ========
 
+Scratch:
+
 Demonstrate how a function with internal statements works in Scratch.
 
 ### Project Information
@@ -8,7 +10,7 @@ Demonstrate how a function with internal statements works in Scratch.
 Type              : Scratch
 Version           : 01.0
 Author            : myke predko
-Firmware          : 41
+Firmware          : 42
 ```
 
 ### Release History:
